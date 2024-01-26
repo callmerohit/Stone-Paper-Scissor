@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="sps.css">
+</head>
+<body>
+    <h1>Stone-Paper-Scissor</h1>
+
+    <div class="choices">
+        <div class="choice" id="Stone">
+            <img src="stone.png" alt="Stone">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="paper.png" alt="Paper">
+        </div>
+        <div class="choice" id="Scissor">
+            <img src="scissor.png" alt="Scissor">
+        </div>
+    </div>
+    <div class="restartDiv">
+        <button id="restart">Restart</button>
+    </div>
+
+    <div class="scoreBoard" >
+        <div class="score">
+            <p id="userScore">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="computerScore">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="msgBox">
+        <p id="msg">Play Your Move!</p>
+    </div>
+    <div class="footer">
+        <p id="footerMsg">&copy Made with &#10084 by Rohit Kumar</p>
+    </div>
+
+<script src="sps.js"></script>
+</body>
+</html>
