@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0px;
     padding: 0px;
 }
@@ -104,7 +104,7 @@ img{
 #restart:active{
     transform: translateY(5px);
 }
-@media(max-width:500px){
+@media(max-width:700px){
     h1{
     font-size: 30px;
     margin-bottom: 5rem;
