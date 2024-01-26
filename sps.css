@@ -104,13 +104,13 @@ img{
 #restart:active{
     transform: translateY(5px);
 }
-@media(max-width:750px){
+@media(max-width:500px){
     h1{
     font-size: 30px;
     margin-bottom: 5rem;
     }
     img{
-    height: 100px;
+    height: 50px;
     margin-bottom: 4rem;
     }
     .score{
